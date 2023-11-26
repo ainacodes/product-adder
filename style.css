@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 8px 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #b392ac;
+  border-radius: 8px;
+  border: 2px solid #b392ac;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: brightness(90%);
+}
+
+.cancelBtn {
+  background-color: white;
+}
+
+.productForm {
+  display: flex;
+}
+
+input {
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 2px solid #333;
+}
+
+.productList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.productCard {
+  margin: 0.5rem;
+  padding: 1rem;
+  width: 15rem;
+  border: 2px solid #333;
+  border-radius: 8px;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple E-commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Add Your Products Here</h1>
+  <button class="addProductBtn" id="addProductBtn">Add Product</button>
+  <div class="productForm" id="productForm" style="display: none;">
+    <input type="text" id="title" placeholder="Title">
+    <input type="text" id="price" placeholder="Price">
+    <input type="text" id="description" placeholder="Description">
+    <div class="buttonContainer">
+      <button class="saveBtn" id="saveBtn">Save</button>
+      <button class="cancelBtn" id="cancelBtn">Cancel</button>
+    </div>
+  </div>
+  <div class="productList" id="productList"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
